@@ -4,12 +4,7 @@ import (
 	"fmt"
 	"os"
 	"encoding/json"
-) // 我们需要使用fmt包中的Println()函数
-//import "time"
-//import "os"
-//import "encoding/json"
 
-import (
 	//"flag"
 	//"log"
 	//"net/url"
@@ -21,13 +16,13 @@ import (
 func main() {
 	fmt.Println("Hello, world. 你好，世界！")
 
-	//var nowUnix int64 = 1504856025
-	//now := time.Unix(nowUnix, 0)
-	//fmt.Println(now)
-	//fmt.Println()
-	//
-	//now = time.Now()
-	//fmt.Println(now)
+	var nowUnix int64 = 1504856025
+	now := time.Unix(nowUnix, 0)
+	fmt.Println(now)
+	fmt.Println()
+	
+	now = time.Now()
+	fmt.Println(now)
 
 	var i int = 0
 	if i > 0 {
